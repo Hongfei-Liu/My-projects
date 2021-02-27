@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4953210505930327365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4953210505930327355}
+  - component: {fileID: 4953210505930327364}
+  m_Layer: 0
+  m_Name: Spawnposition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4953210505930327355
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4953210505930327365}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5, y: 5.22, z: -4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4953210505930327364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4953210505930327365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f1088423cc6437438397af236f52c67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBasic: {fileID: 4168700454056024262, guid: 98f1bab86602a8448845a652a9adb6a7,
+    type: 3}
+  enemyBasic2: {fileID: 1521414688704781733, guid: 090e4f57b96705f46aa0631ee418b976,
+    type: 3}
+  Stone: {fileID: 1945841626301991760, guid: 5050ad4baa9583545a43ac86e6011879, type: 3}
+  AwardBullet: {fileID: 4568570392208064522, guid: df20d896804ec664caee20413001a060,
+    type: 3}
+  AwardShield: {fileID: 5776490940447784645, guid: 4807fefed94b18443949ea615989161e,
+    type: 3}
+  Laser: {fileID: 5424352760718614556, guid: 65cbae6c3c6fc934db04da3a26ab2375, type: 3}
+  Boss1: {fileID: 0}
+  enemyBasicRate1: {fileID: 0}
+  IsBoss: 0
+  enemyBasicRate: 0.4
+  enemyBasicRate2: 2
+  StoneRate: 3
+  AwardBulletRate: 10
+  AwardShieldRate: 10
+  LaserRate: 10
